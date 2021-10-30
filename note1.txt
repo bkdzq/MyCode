@@ -1,0 +1,18 @@
+解决Git clone问题
+
+##############################
+ssl error 解决方法：
+配置
+git config --global user.name [username]
+git config --global user.email [email]
+重新输入
+git config –global http.sslVerify false
+git pull
+成功
+
+##############################
+解决墙的问题：
+将https里的
+http://github.com 
+修改为
+github.com.cnpmjs.org
